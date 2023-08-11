@@ -34,6 +34,10 @@
   
 }
 
+.up-ection{
+  padding-bottom: 10px;
+}
+
 .title-adjustments{
   padding-left: 10%;
   
@@ -51,7 +55,7 @@
 .left-image-padding{
   padding-top: 3%;
   padding-left: 10%;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   padding-right: 3%;
 }
 .right-image-padding{
@@ -64,7 +68,7 @@
 .right-text-padding{
   padding-top: 5%;
     padding-left: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     padding-right: 10%;
 }
 
@@ -80,7 +84,7 @@
   padding-top: 3%;
   padding-left: 15%;
   padding-right: 15%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   
 }
 
@@ -88,6 +92,10 @@
   
   font-size: 28px;
   line-height: 200%;
+}
+
+.upPadding{
+  padding-bottom: 100px;
 }
 
 .custom {
@@ -126,6 +134,81 @@
   background-color: #050E1C;
 }
 
-.spacer{
-  width: 0px;
+/* Custom LImage component classes */
+
+.section-two-colors{
+  background-color: #050E1C;
+  color: #E8E8E8;
+}
+
+.section-two-pharagraph-layout{
+  padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    font-size: 28px;
+      line-height: 200%;
+}
+
+.section-two-pharagraph-font{
+  font-family: Outfitlight;
+}
+
+.section-2-fs-lh{
+  font-size: 28px;
+  line-height: 200%;
+}
+
+.section-two-upper{
+  padding-bottom: 5px;
+}
+
+/* Rounded div */
+
+.rounded-div {
+  height: 80%;
+  width: 60%;
+  padding: 20px;
+  border-radius: 60px;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 25px;
+  color: #061179;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: outfitmedium;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #061179;
+  color: white;
+  text-decoration: none;
+}
+
+.outer-div {
+  width: auto;
+  height: 700px;
+  background-color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
