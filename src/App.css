@@ -1,0 +1,131 @@
+@font-face {
+  font-family: OutfitBold;
+  src: url('src/assets/fonts/outfit/Outfit-Bold.ttf');
+}
+
+@font-face {
+  font-family: Outfitmedium;
+  src: url('src/assets/fonts/outfit/Outfit-Medium.ttf');
+}
+@font-face {
+  font-family: Outfitlight;
+  src: url('src/assets/fonts/outfit/Outfit-Light.ttf');
+}
+
+.outfit-bold {
+  
+  font-family: OutfitBold;
+  font-size: 75px;
+  line-height: 130%;
+}
+
+.outfit-medium-title {
+
+  font-family: OutfitMedium;
+  font-size: 50px;
+  line-height: 130%;
+}
+.outfit-medium {
+  font-family: Outfitmedium;
+  
+}
+.outfit-light {
+  font-family: Outfitlight;
+  
+}
+
+.title-adjustments{
+  padding-left: 10%;
+  
+}
+.buttons-adjustments{
+  padding-right: 10%;
+  
+}
+
+.upper-top-padding{
+  padding-top: 3%;
+  
+}
+
+.left-image-padding{
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+}
+.right-image-padding{
+  padding-top: 3%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.right-text-padding{
+  padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+}
+
+
+.left-text-padding{
+  padding-top: 5%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+.padding-for-small{
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  
+}
+
+.upper-pharagraph{
+  
+  font-size: 28px;
+  line-height: 200%;
+}
+
+.custom {
+  background-color: red;
+  height: 100px;
+}
+
+.customized-button{
+  padding: 2%;
+  color: white;
+  border-color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#singup {
+  color: #050E1C;
+    border-color: #050E1C;
+    background-color: white;
+}
+#singup:hover {
+  color: white;
+    border-color: white;
+    background-color: #050E1C;
+}
+
+.customized-button:hover, .customized-button:focus{
+  color: #050E1C;
+  
+  background-color: white;
+  border-color: #050E1C;
+}
+.customized-button:active{
+  color: white;
+  border-color: white;
+  background-color: #050E1C;
+}
+
+.spacer{
+  width: 0px;
+}
