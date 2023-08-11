@@ -33,7 +33,7 @@ const Home = () => {
             }
           >
             <img
-              src="./src/assets/Images/money.jpg"
+              src="./assets/Images/money.jpg"
               width="100%"
               height={window.innerWidth >= 1400 ? "780px" : "100%"}
               alt=""
