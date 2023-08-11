@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Home = () => {
   // Left image
@@ -17,8 +17,8 @@ const Home = () => {
   const imageClasss = paddingclass + " col-xxl-6";
   console.log(imageClasss);
 
-  const textClass = paddingText + " col-xxl-6 text-start ";
-  console.log(paddingText);
+  // const textClass = paddingText + " col-xxl-6 text-start ";
+  // console.log(paddingText);
 
   return (
     <>
